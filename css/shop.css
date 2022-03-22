@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+#inner-header-beer{
+    color: #ffffff;
+    padding: 50px 0;
+    background-color: tomato;
+}
+#shop{
+    padding:0px 0 80px 0;
+}
+#cart-sec{
+    padding-top: 50px;
+}
+#shop img{
+    max-width: 50% !important;
+    margin-top: 20px !important;
+}
+
+#shop .card{
+    text-align: center;
+    width: 12rem;
+    margin:0.5rem;
+    padding: 0;
+  }
+  #shop .card h5{
+      font-size: 0.9em !important;
+      margin-top: 10px;
+      font-weight: 600;
+  }
+  #shop .card img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  #shop p{
+      font-size: 0.8em !important;
+      font-weight: 600;
+  }
+  #shop .card:hover{
+    box-shadow: 0px 0px 20px 0px #c4c4c4;
+  }
+  .sub-cat-active{
+      background-color: tomato;
+      color: #ffffff;
+      padding: 5px 15px;
+  }
+  .sub-cat{
+      background-color: #dadada;
+      padding: 5px 15px;
+  }
+
+
+
+  /*************** Beer page styling start *********************/
+  .hide{
+    display: none !important;
+  }
+#beer{
+    padding:0px 0 80px 0;
+}
+#cart-sec{
+    padding-top: 50px;
+}
+#beer img{
+    max-width: 50% !important;
+    margin-top: 20px !important;
+}
+
+
+  .sub-cat-active{
+      background-color: tomato;
+      color: #ffffff;
+      padding: 5px 15px;
+  }
+  .sub-cat{
+      background-color: #dadada;
+      padding: 5px 15px;
+  }
+
+
+  #myTab{
+    margin-bottom: 30px !important;
+  }
+
+  #beer .card{
+    text-align: center;
+    width: 13rem;
+    height: 360px;
+    margin:0.8rem 0.5rem;
+    padding: 0;
+    float: left;
+  }
+  #beer .card:hover{
+    box-shadow: 0px 0px 20px 0px #c4c4c4;
+  }
+  #beer .card img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  #beer .card-body .card-title{
+    font-size: 0.9em !important;
+    font-weight: 600;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #beer .card-text{
+    font-size: 0.8em;
+  }

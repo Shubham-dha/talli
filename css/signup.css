@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#login{
+    padding: 50px 0 60px 0;
+    /* background: rgb(255,61,0);
+    background: radial-gradient(circle, rgba(255,61,0,1) 0%, rgba(255,132,0,1) 85%);  */
+    background-image: url(../images/login-bg.jpg);
+    background-size: cover;
+}
+
+#login-form{
+    background-color: #fff;
+    vertical-align: middle;
+    box-shadow: #bd3006 0px 0px 100px 5px;
+}
+
+/* SignUp start */
+.form-control{
+    box-shadow: inset 0px -1px 0px #e2e2e2;
+    border-radius: .25rem;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-signup {
+    color: #fff;
+    background-color: #ff3d00;
+    border-color: #ff3d00;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+}
+
+.btn-signup:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+}
+
+.form-check-input:checked {
+    background-color: #ff3d00;
+    border-color: #ff3d00;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ff3d00;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(251 116 13 / 25%);
+}
+/* SignUp End */
